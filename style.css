@@ -1,0 +1,32 @@
+body {
+background-color: #20044d; /* COR DE FUNDO da página – pode trocar por outra cor ou até
+colocar uma imagem */
+color: white; /* COR do texto principal – pode mudar para qualquer cor legível */
+font-family: "Bai Jamjuree", sans-serif; /* TIPO DE LETRA – pode trocar por outra fonte */
+display: flex; /* Modo de organização dos elementos */
+justify-content: center; /* Alinha o conteúdo no centro (horizontal) */
+align-items: center; /* Alinha o conteúdo no centro (vertical) */
+height: 700px; /* ALTURA da tela – pode aumentar ou diminuir */
+margin: 0; /* Margem externa – pode deixar 0 ou adicionar espaço */
+}
+button {
+background-color: #345fd4; /* COR DE FUNDO dos botões */
+color: rgb(129, 236, 6); /* COR DO TEXTO dos botões */
+font-family: "Bai Jamjuree", sans-serif; /* TIPO DE LETRA dos botões */
+}
+.passo {
+display: none; /* Por padrão, cada "passo" da aventura fica escondido */
+}
+.passo.ativo {
+display:block; /* Somente o passo ativo aparece na tela */
+}
+main {
+text-align: center; /* Alinha texto e botões no centro */
+max-width: 90%; /* LARGURA máxima do conteúdo */
+/* Aqui o aluno pode mudar a largura, alinhar à esquerda ou direita, etc. */
+}
+img {
+max-width: 90%; /* A imagem ocupa até 90% da tela */
+/* pode mudar para 100% (ocupar tudo) ou 50% (ficar menor) */
+}
+
